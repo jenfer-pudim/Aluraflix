@@ -1,24 +1,59 @@
 body{
     color:rgb(118, 88, 71);
     background:rgb(236, 231, 228);
-    margin: 0px
+    margin: 0px;
+    margin-bottom: 100px;
 }
 
 header{
-border-bottom: solid 2px rgb(190, 147, 121);
+border-bottom: solid 2px rgba(190, 147, 121);
 padding:25px;
 font-size: 28px;
-color: rgb(190, 147, 121);
+color: rgba(190, 145, 118, 0.788);
 }
 
-section{ 
-   background: rgb(211, 158, 125)
-   padding-bottom: 80px;
-   padding-top: 80px;
-   display: flex;
-   justify-content: center;
+.chamada {
+    background: rgba(109, 65, 38, 0.697);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .chamada-texto{
     margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+ font-size: 20px;
+}
+
+
+.categoriavideos{
+display:flex;
+overflow-x:auto;
+gap: 10px;
+}
+
+.analises {
+    paddig-left: 20px;
+    padding-right: 20px;
+}
+
+.categoriavideos img{
+   opacity: 0.5;
+   height: 250px;
+}
+
+.categoriavideos img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(190, 145, 118, 0.788);
+}
+
+.analises h2{
+    color: rgba(190, 145, 118, 0.788);
 }
